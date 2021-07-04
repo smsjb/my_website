@@ -139,14 +139,12 @@ body{
     opacity: 0.5;
 }
 
-.main_container .about_me{
-    cursor: pointer;
-}
 
+
+.main_container .about_me,
+svg,
 .main_container .github_intro{
-
     cursor: pointer;
-    
 }
 
 .main_container .card_container:hover{
