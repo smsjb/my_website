@@ -15,4 +15,8 @@ $jstxt='';
 
 $other=['程式語言','版本控制'];
 $othertxt=['SQL','jquery','node.js','php','css','html','git'];
+
+$phone='phone: 0983657496';
+$email='email: samantha3780323@gmail.com';
+$github='github: https://github.com/smsjb';
 ?>

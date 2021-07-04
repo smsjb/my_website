@@ -13,8 +13,12 @@ include(__DIR__.'/lang.php');
 </style>
 <body>
     <div class="main_container">
-        <div class="about_me"></div>
-        <div class="github_intro"></div>
+        <div class="card_container about_me">
+            <h1>關<br>於<br>我</h1>
+        </div>
+        <div class="card_container github_intro">
+            <h1>作<br>品<br>集</h1>
+        </div>
     </div>
 
     <div class="codeLink">
@@ -102,9 +106,12 @@ include(__DIR__.'/lang.php');
         <div class='scrollbtn'>
             <span></span>
             <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
 
 
     <script type="text/javascript" src="demo.js"></script>
+
 </body>

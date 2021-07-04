@@ -1,1 +1,4 @@
 bg:https://www.pexels.com/zh-tw/photo/3454270/
+aboutme:https://zh.pngtree.com/free-backgrounds
+github:https://zh.pngtree.com/free-backgrounds
+bg2:https://www.pexels.com/zh-tw/photo/1289363/
