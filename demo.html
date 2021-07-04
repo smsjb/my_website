@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+</style>
+<body>
+    <div class="main_container">
+        <div class="card_container about_me">
+            <h1>關<br>於<br>我</h1>
+        </div>
+        <div class="card_container github_intro">
+            <h1>作<br>品<br>集</h1>
+        </div>
+    </div>
+
+    <div class="codeLink">
+        <div class="skillcard1">
+            <div class="codePage">
+                <div class="logo"></div>
+                <div class="Content">
+                    <ol>
+                        <span>機器學習網站</span>
+                        <svg onclick="window.open('https://github.com/smsjb/Machine-Learning-Website')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>pythin streamlit網頁</li>
+                        </ul>
+                    </ol>
+                    <br>
+                    <ol>
+                        <span>Thread Programming</span>
+                        <svg onclick="window.open('https://github.com/smsjb/Thread-Programming')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>分別用thread和process實現Merge Sort','實現5種CPU排程(FCFS、RR、PSJF、NPSJF、Priority)</li>
+                        </ul>
+                    </ol>
+                    <br>
+                    <ol>
+                        <span>3DCNN Dataflow</span>
+                        <svg onclick="window.open('https://github.com/smsjb/3DCNN-Dataflow')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>實現3DCNN OS Dataflow</li>
+                        </ul>
+                    </ol>
+                    
+                </div>
+            </div>
+            <div class="codePage">
+                <div class="logo"></div>
+                <div class="Content">   
+                    <ol>
+                        <span>OurC</span>
+                        <svg onclick="window.open('https://github.com/smsjb/OurC')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>C語法檢查</li>
+                            <li>簡單printer</li>
+                        </ul>
+                    </ol>
+                    <br>
+                    <ol>
+                        <span>Lexical-Analysis</span>
+                        <svg onclick="window.open('https://github.com/smsjb/Lexical-Analysis')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>切token</li>
+                            <li>SIC/SIC-XE-assembler前置作業</li>
+                        </ul>
+                    </ol>
+                    <br>
+                    <ol>
+                        <span>SIC/SIC-XE-assembler</span>
+                        <svg onclick="window.open('https://github.com/smsjb/SIC-SIC-XE-assembler')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>切token</li>
+                            <li>SIC/SIC-XE文法檢查</li>
+                            <li>翻成機器碼</li>
+                        </ul>
+                    </ol>
+
+                    
+                </div>
+            </div>
+            <div class="codePage">
+                <div class="logo"></div>
+                <div class="Content">
+                    <ol>
+                        <span>骰子花色辨識遊戲</span>
+                        <svg onclick="window.open('https://github.com/smsjb/Dice-game')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>顯示骰子花色或總和</li>
+                        </ul>
+                    </ol>
+                    <br>
+                    <ol>
+                        <span>戰艦小遊戲</span>
+                        <svg onclick="window.open('https://github.com/smsjb/BoatGame')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" frameborder="0" cellspacing="0" width="16" height="16" style=" border:none" width="16">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        <ul>
+                            <li>類似幾A幾B遊戲</li>
+                        </ul>
+                    </ol>
+                                
+                </div>
+            </div>
+        </div>
+        <div class="skillcard2">
+            <div class="codePage">
+                <div class="logo"></div>
+                <div class="Content">
+                    
+                    <ol>
+                        <span>程式語言</span>
+                        <ul>
+                            <li>SQL</li>
+                            <li>jquery</li>
+                            <li>node.js</li>
+                            <li>php</li>
+                            <li>css</li>
+                            <li>html</li>
+                        </ul>
+                    </ol>
+                    <br>
+                    <ol>
+                        <span>版本控制</span>
+                        <li>git</li>
+                    </ol>
+                    
+                                
+                </div>
+            </div>
+            <div class="codePage"></div>
+            <div class="codePage"></div>
+        </div>
+        <div class='scrollbtn'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="demo.js"></script>
+
+</body>
